@@ -1,0 +1,94 @@
+html, body{
+    background-image: url(../assets/images/background.png);
+    background-color: #ececec;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+}
+.container{
+    background-color: white;
+}
+header{
+    border-bottom:solid 5px #F68F13 ;
+}
+.navbar{
+    background-color:#414141;
+}
+h1{
+    margin-bottom: 20px;
+    border-bottom: solid 1px lightgray;
+}
+/* INDEX PAGE */
+h2{
+    margin-top: 50px;
+    text-align: center;
+}
+.index-cards{
+    margin: 10px;
+    padding: 20px;
+background-color: #d3d3d3;
+text-align: center;
+}
+/* ABOUT ME PAGE */
+#panda{
+    width: 250px;
+    padding-left: 10px;
+}
+
+/* PORTFOLIO PAGE */
+.card{
+    margin: 10px auto;
+    float: none;
+    border: none;
+}
+.card-btn-center{
+    text-align: center;
+}
+
+.port-img-hover:hover{
+  opacity: 50%;
+    transition: .5s ease;
+}
+.port-h5{
+    margin-top: 75px;
+    text-align: center;
+}
+
+/* CONTACT PAGE */
+.btn-primary{
+    background-color: #F68F13;
+    margin: 40px 0;
+    color: #414141;
+    border: #414141;
+}
+.btn-primary:hover{
+    background-color: #d3d3d3;
+}
+.btn-primary:active{
+    background-color:#414141 !important;
+}
+.form{
+    margin-top: 20px;
+}
+i{
+    color:#ececec;
+    padding: 5px;
+}
+
+
+.footer{
+  width: 100%;
+  height: auto;
+  background-color: #414141;
+  border-top:solid 5px #F68F13 ;
+  text-align: center;
+  margin-top: 30px;
+}
+
+@media (min-width: 576px) { 
+
+    header{
+    margin-bottom: 70px;
+    }
+    
+}
