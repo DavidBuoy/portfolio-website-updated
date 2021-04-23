@@ -54,6 +54,47 @@ text-align: center;
     text-align: center;
 }
 
+/*  */
+.card-image {
+  position: relative;
+
+}
+.card-img-top{
+  border-radius: 10px;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(146, 99, 99, 0.5);
+    border-radius: 10px;
+  }
+
+.card:hover .image-overlay {
+    opacity: 1;
+  }
+
+.img-overlay-text{
+    color: white;
+    text-align: center;
+    padding: 5px;
+    
+
+}
+
+
+
+
+
+
+
 /* CONTACT PAGE */
 .btn-primary{
     background-color: #F68F13;
